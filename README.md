@@ -59,6 +59,11 @@ END
 |       1201:34           |         68:1205
 |       1202:12           |         00:1206
 |       1203:34           |         c4:1207
+
+#### Manual Calculations
+<img width="1541" height="969" alt="image" src="https://github.com/user-attachments/assets/78602c1d-a50f-4130-9662-d5f94f3e8381" />
+
+
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
@@ -108,6 +113,12 @@ END
 |       1201:34           |         68:1205
 |       1202:12           |         00:1206
 |       1203:34           |         c4:1207
+
+
+#### Manual Calculations
+
+<img width="1600" height="1075" alt="image" src="https://github.com/user-attachments/assets/11e28e3c-c8ff-49cb-9ef4-a070648c3c20" />
+
 
 ---
 
@@ -159,6 +170,9 @@ END
 |         1201:34         |      68:1205             |
 |         1202:12         |      00:1206
 |         1203:34         |      c4:1207
+#### Manual Calculations
+<img width="1009" height="567" alt="image" src="https://github.com/user-attachments/assets/dff2b353-08fc-474f-93e3-f138cfdc9337" />
+
 
 ---
 
@@ -205,6 +219,9 @@ END
 |         1201:34         |      68:1205             |
 |         1202:12         |      00:1206
 |         1203:34         |      c4:1207
+#### Manual Calculations
+<img width="1027" height="560" alt="image" src="https://github.com/user-attachments/assets/11656504-6710-416f-9bd0-40dd3c2a74fd" />
+
 
 
 ---
