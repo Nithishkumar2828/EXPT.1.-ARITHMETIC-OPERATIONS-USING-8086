@@ -35,17 +35,17 @@ To write and execute Assembly Language Programs to perform arithmetic operations
 
 ```asm
 CODE SEGMENT
-ASSUME CS:CODE, DS:CODE
+ASSUME CS: CODE, DS: CODE
 ORG 1000H
 MOV CL,00H
 MOV AX,1234H
-MOV BX,1234H
+MOV BX,124H
 ADD AX,BX
 JNC L1
 INC CL
 L1:MOV SI,1200H
-MOV [SI],AX
-MOV [SI+2],CL
+MOV [SI], AX
+MOV [SI+2], CL
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -56,17 +56,15 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
-
-#### Manual Calculations
-
-(Add your calculation here)
-
+|       1201:34           |         68:1205
+|       1202:12           |         00:1206
+|       1203:34           |         c4:1207
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="801" height="508" alt="image" src="https://github.com/user-attachments/assets/3e017090-6938-450b-af0f-9079a3eefaca" />
+
+
 
 ## 2. SUBTRACTION
 
@@ -88,16 +86,15 @@ END
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
 MOV CL,00H
-MOV AX,[SI]
-MOV BX,[SI+02H]
+MOV AX,1234H
+MOV BX,124H
 SUB AX,BX
 JNC L1
 INC CL
-L1:
-MOV [SI+04H],AX
-MOV [SI+06H],CL
+L1:MOV SI,1200H
+MOV [SI], AX
+MOV [SI+2], CL
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -106,19 +103,20 @@ END
 
 
 #### Output Table
-
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
-#### Manual Calculations
-
-(Add your calculation here)
+|       1201:34           |         68:1205
+|       1202:12           |         00:1206
+|       1203:34           |         c4:1207
 
 ---
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="812" height="500" alt="image" src="https://github.com/user-attachments/assets/effcdb1e-81dd-4f5c-b8a4-0fe573c5dc1a" />
+
+
+
 
 ## 3. MULTIPLICATION
 
@@ -158,15 +156,16 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
-#### Manual Calculations
-
-(Add your calculation here)
+|         1201:34         |      68:1205             |
+|         1202:12         |      00:1206
+|         1203:34         |      c4:1207
 
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="808" height="510" alt="image" src="https://github.com/user-attachments/assets/991ca36e-801d-409b-93c2-b2b754f023a5" />
+
+
 
 ## 4. DIVISION
 
@@ -203,14 +202,16 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|         1201:34         |      68:1205             |
+|         1202:12         |      00:1206
+|         1203:34         |      c4:1207
 
-#### Manual Calculations
-
-(Add your calculation here)
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
+<img width="805" height="492" alt="image" src="https://github.com/user-attachments/assets/bc7662ad-d62e-4a6f-98bc-b0c7aba96b4a" />
+
+
 
 
 
