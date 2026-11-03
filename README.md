@@ -61,7 +61,8 @@ END
 |       1203:34           |         c4:1207
 
 #### Manual Calculations
-<img width="1541" height="969" alt="image" src="https://github.com/user-attachments/assets/78602c1d-a50f-4130-9662-d5f94f3e8381" />
+
+<img width="899" height="1599" alt="WhatsApp Image 2026-11-03 at 1 47 59 PM" src="https://github.com/user-attachments/assets/47bcb847-c46b-48a6-ab65-860d636a3792" />
 
 
 ---
@@ -117,7 +118,7 @@ END
 
 #### Manual Calculations
 
-<img width="1600" height="1075" alt="image" src="https://github.com/user-attachments/assets/11e28e3c-c8ff-49cb-9ef4-a070648c3c20" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-11-03 at 1 48 04 PM" src="https://github.com/user-attachments/assets/1cca58e6-2d06-4dd1-b778-c07229117c32" />
 
 
 ---
@@ -171,8 +172,7 @@ END
 |         1202:12         |      00:1206
 |         1203:34         |      c4:1207
 #### Manual Calculations
-<img width="1009" height="567" alt="image" src="https://github.com/user-attachments/assets/dff2b353-08fc-474f-93e3-f138cfdc9337" />
-
+<img width="899" height="1599" alt="WhatsApp Image 2026-11-03 at 1 48 17 PM" src="https://github.com/user-attachments/assets/e3396de5-3d30-4168-b947-cfc2cdb0b655" />
 
 ---
 
@@ -220,7 +220,7 @@ END
 |         1202:12         |      00:1206
 |         1203:34         |      c4:1207
 #### Manual Calculations
-<img width="1027" height="560" alt="image" src="https://github.com/user-attachments/assets/11656504-6710-416f-9bd0-40dd3c2a74fd" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-11-03 at 1 48 29 PM" src="https://github.com/user-attachments/assets/595e3ee6-b08e-4585-b2fc-51f3acf3f3ba" />
 
 
 
